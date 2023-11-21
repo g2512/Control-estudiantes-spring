@@ -9,6 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "estudiantes")
+// definir estudiantes
 public class Estudiante {
 
 	@Id
