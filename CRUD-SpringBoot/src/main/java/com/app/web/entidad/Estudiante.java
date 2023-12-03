@@ -24,6 +24,9 @@ public class Estudiante {
 	
 	@Column(name = "email",nullable = false,length = 50,unique = true)
 	private String email;
+
+	@Column(name="Fecha",nullable=true,length=50)
+	 private String fecha;
 	
 	public Estudiante() {
 		
